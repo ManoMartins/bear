@@ -77,12 +77,12 @@ export const SearchInput = styled.input`
   height: 100%;
   width: 16rem;
   outline: none;
+  font-size: 1rem;
   margin-left: 1rem;
 
-  color: ${({ theme }) => theme.colors.text};
+  color: ${({ theme }) => theme.colors.textLight};
 
   &::placeholder {
-    font-size: 1rem;
     color: ${({ theme }) => theme.colors.text};
   }
 `
