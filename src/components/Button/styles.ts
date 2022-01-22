@@ -5,6 +5,9 @@ interface ContainerProps {
 }
 
 export const Container = styled.button<ContainerProps>`
+  display: flex;
+  align-items: center;
+
   border-radius: 0.75rem;
   padding: 0.25rem 1.25rem;
   border: none;
