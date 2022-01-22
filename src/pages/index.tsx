@@ -1,7 +1,11 @@
+import { LayoutDefault } from "../layout/Default";
+
 export default function Home() {
   return (
-    <div>
-      <h1>Bear</h1>
-    </div>
+    <LayoutDefault>
+
+      <div>Teste</div>
+
+    </LayoutDefault>
   )
 }
