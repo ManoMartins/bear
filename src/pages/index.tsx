@@ -3,6 +3,7 @@ import { LayoutDefault } from "../layout/Default";
 import { Container } from "../styles/home.styles";
 import { BsArrowRight } from "react-icons/bs";
 import { ListGames } from "../components/ListGames";
+import { RecommendedArticles } from "../components/RecommendArticles";
 
 export default function Home() {
   return (
@@ -16,6 +17,8 @@ export default function Home() {
         <Button label="Start Exploring" iconRight={BsArrowRight} />
 
         <ListGames />
+
+        <RecommendedArticles />
       </Container>
 
     </LayoutDefault>
